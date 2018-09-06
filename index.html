@@ -24,7 +24,7 @@
 
         #hero {
             display: flex;
-            height: 85vh;
+            height: 80vh;
         }
 
         #hero>div {
@@ -70,29 +70,30 @@
         }
 
         #world {
-            height: 15vh;
+            height: 20vh;
         }
 
         #ecsspert {
-            display: flex;
+            overflow: hidden;
         }
 
         #ecsspert-logos-preview {
-            display: block;
             border-radius: 4px;
+            display: block;
+            float: left;
+            margin: 0 20px 20px 0;
             overflow: hidden;
-            flex: 0 0 auto;
             width: 50%;
         }
 
         #ecsspert-logos-preview img {
             display: block;
+            width: 100%;
         }
 
         #about {
             box-sizing: border-box;
             flex: 50% 0 0;
-            padding: 0 20px;
         }
 
         #about .title {
@@ -109,17 +110,8 @@
             font-size: 18px;
         }
 
-        #featured-on {
-            display: flex;
-            flex-direction: column
-        }
-
-        #featured-on a {
-            width: 33% 0 0;
-        }
-
         #more {
-            margin: 45px 0 0;
+            margin: 25px 0 0;
         }
 
         #world {
@@ -176,6 +168,29 @@
         .medium:hover {
             background-color: #1C1B1A
         }
+
+        /* FROM http://stephen.io/mediaqueries */
+        /* iPAD */
+        @media only screen
+        and (min-device-width : 768px)
+        and (max-device-width : 1024px)
+        and (orientation : landscape) {
+            #main {
+                font-size: 24px;
+            }
+            h1 {
+                font-size: 146px
+            }
+            #about p {
+                font-size: 14px;
+            }
+            #featured-on {
+                clear: both;
+            }
+            #more {
+                margin-top: 45px;
+            }
+        }
     </style>
     <div id="hero">
         <div id="portrait"></div>
@@ -192,12 +207,10 @@
                     <p><strong>Provoke people to think differently about CSS</strong></p>
                     <p>One of the enthusiastic projects celebrating the move away from Flash and to a more open, fast and
                         accessible web.</p>
-                    <p>It was <a href="https://news.ycombinator.com/item?id=3159660" target="_blank">#1 on Hacker News</a>
-                        for 2 days. Mentioned in
-                        <a href="https://www.theguardian.com/technology/2011/nov/14/flash-death-bad-windows-phone" target="_blank">The
-                            Guardian</a> as the example that Flash is dead. Offered an original contribution to the landmark
-                        article <a href="https://css-tricks.com/examples/ShapesOfCSS/" target="_blank">The Shapes of CSS</a>
-                        on CSS-Tricks.
+                    <p id="featured-on">
+                        <a href="https://news.ycombinator.com/item?id=3159660" target="_blank">#1 on Hacker News</a> for 2 days.
+                        Mentioned in <a href="https://www.theguardian.com/technology/2011/nov/14/flash-death-bad-windows-phone" target="_blank">The Guardian</a> as the example that Flash is dead.
+                        Offered an original contribution to the landmark article <a href="https://css-tricks.com/examples/ShapesOfCSS/" target="_blank">The Shapes of CSS</a> on CSS-Tricks.
                     </p>
                 </div>
             </div>
