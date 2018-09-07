@@ -23,27 +23,27 @@
         }
 
         #hero {
-            display: flex;
-            height: 80vh;
-        }
-
-        #hero>div {
-            width: 50%;
-            flex: auto 0 0;
             background-size: contain;
+            background: #000 url("img/zinc-big-other-side.jpg") no-repeat 100% 100%;
+            display: grid;
+            font-size: 32px;
+            grid-template-columns: [portrait] 50vw [about] auto;
+            grid-template-rows: [hello] auto [ecsspert] 1fr [more] auto;
+            height: 80vh;
         }
 
         #portrait {
             background: #030200 url("img/zinc-big.jpg") no-repeat 100% 100%;
-        }
-
-        #main {
-            background: #000 url("img/zinc-big-other-side.jpg") no-repeat 0 100%;
-            font-size: 32px;
-            overflow: hidden;
+            background-size: contain;
+            grid-column: portrait;
+            grid-row: hello / span 3;
         }
 
         #hello {
+            grid-column: about;
+            grid-row: hello;
+        }
+        #hello p {
             margin: 45px 0 0 -6px;
         }
 
@@ -56,10 +56,10 @@
         }
 
         #subtitle {
-            margin: -10px 0 10px;
+            margin: 0 0 10px;
         }
 
-        #main a {
+        #hero a {
             color: #f00
         }
 
@@ -75,6 +75,8 @@
 
         #ecsspert {
             overflow: hidden;
+            grid-column: about;
+            grid-row: ecsspert;
         }
 
         #ecsspert-logos-preview {
@@ -83,7 +85,7 @@
             float: left;
             margin: 0 20px 20px 0;
             overflow: hidden;
-            width: 50%;
+            width: 210px;
         }
 
         #ecsspert-logos-preview img {
@@ -111,7 +113,9 @@
         }
 
         #more {
-            margin: 25px 0 0;
+            margin: 0;
+            grid-row: more;
+            grid-column: about;
         }
 
         #world {
@@ -175,7 +179,7 @@
         and (min-device-width : 768px)
         and (max-device-width : 1024px)
         and (orientation : landscape) {
-            #main {
+            #hero {
                 font-size: 24px;
             }
             h1 {
@@ -191,28 +195,27 @@
     </style>
     <div id="hero">
         <div id="portrait"></div>
-        <div id="main">
-            <p id="hello">👋 Hello! I'm</p>
+        <div id="hello">
+            <p>👋 Hello! I'm</p>
             <h1>Zinc</h1>
-            <p id="subtitle">The guy that made <span class="arrow-down-emoji">⤵️</span></p>
-            <div id="ecsspert">
-                <a id="ecsspert-logos-preview" href="http://ecsspert.com" target="_blank">
-                    <img src="img/ecsspert-logos-preview.jpg" width="420" />
-                </a>
-                <div id="about">
-                    <a class="title" href="http://ecsspert.com" target="_blank">Pure CSS3 Logos</a>
-                    <p><strong>Provoke people to think differently about CSS</strong></p>
-                    <p>One of the enthusiastic projects celebrating the move away from Flash and to a more open, fast and
-                        accessible web.</p>
-                    <p id="featured-on">
-                        <a href="https://news.ycombinator.com/item?id=3159660" target="_blank">#1 on Hacker News</a> for 2 days.
-                        Mentioned in <a href="https://www.theguardian.com/technology/2011/nov/14/flash-death-bad-windows-phone" target="_blank">The Guardian</a> as the example that Flash is dead.
-                        Offered an original contribution to the landmark article <a href="https://css-tricks.com/examples/ShapesOfCSS/" target="_blank">The Shapes of CSS</a> on CSS-Tricks.
-                    </p>
-                </div>
-            </div>
-            <p id="more">I also do these other things <span class="arrow-down-emoji">⤵️</span></p>
         </div>
+        <div id="ecsspert">
+            <p id="subtitle">The guy that made <span class="arrow-down-emoji">⤵️</span></p>
+            <a id="ecsspert-logos-preview" href="http://ecsspert.com" target="_blank">
+                <img src="img/ecsspert-logos-preview.jpg" width="420" />
+            </a>
+            <div id="about">
+                <a class="title" href="http://ecsspert.com" target="_blank">Pure CSS3 Logos</a>
+                <p><strong>Provoke people to think differently about CSS</strong></p>
+                <!-- <p>One of the enthusiastic projects celebrating the move away from Flash and to a more open, fast and accessible web.</p> -->
+                <p id="featured-on">
+                    <a href="https://news.ycombinator.com/item?id=3159660" target="_blank">#1 on Hacker News</a> for 2 days.
+                    Mentioned in <a href="https://www.theguardian.com/technology/2011/nov/14/flash-death-bad-windows-phone" target="_blank">The Guardian</a> as the example that Flash is dead.
+                    Offered an original contribution to the landmark article <a href="https://css-tricks.com/examples/ShapesOfCSS/" target="_blank">The Shapes of CSS</a> on CSS-Tricks.
+                </p>
+            </div>
+        </div>
+        <p id="more">I also do these other things <span class="arrow-down-emoji">⤵️</span></p>
     </div>
     <div id="world">
         <a class="world-link github" href="https://github.com/zoreet" target="_blank"><svg aria-labelledby="simpleicons-github-icon"
