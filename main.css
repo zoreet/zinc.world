@@ -48,7 +48,6 @@ a:active {
     background-image: url("img/zinc-big.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    
 }
 .portrait:after {
     background-image: url("img/zinc-big-other-side.jpg");
