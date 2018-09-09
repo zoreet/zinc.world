@@ -177,17 +177,18 @@ and (min-width: 1366px) {
     .portrait,
     .portrait:after {
         background-color: #030200;
-        background-repeat: no-repeat;
-        background-size: contain;
     }
     .portrait:after {
         background-image: url("img/zinc-big-other-side.jpg");
         background-position: 0 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
         content: "";
         display: block;
         height: 100%;
         left: 100%;
         position: absolute;
+        top: 0;
         width: 100%;
         z-index: -1;
     }
