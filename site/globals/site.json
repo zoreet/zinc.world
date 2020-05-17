@@ -1,0 +1,19 @@
+{
+    "name": "Zinc, a designer who codes and ♥️ the web.",
+    "url": "https://zinc.world",
+    "author": {
+        "name": "Vlad Zinculescu",
+        "handle": "@vladzinculescu",
+        "avatar": "/images/blog/author.jpg"
+    },
+    "images": {
+        "logo": "/images/logo/logo.jpg",
+        "favicon": "/images/favicon.png",
+        "twitter": "/images/meta/twitter.jpg",
+        "og": "/images/meta/og.jpg"
+    },
+    "social_links": {
+        "twitter": "https://twitter.com/vladzinculescu",
+        "linkedin": "https://www.linkedin.com/in/vladzinculescu/"
+    }
+}

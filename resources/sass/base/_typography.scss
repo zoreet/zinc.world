@@ -1,0 +1,56 @@
+
+//==========  Typography ==========//
+
+// headings
+h1, h2, h3 {
+    @apply font-bold leading-tight mt-0 mb-6 text-white;
+}
+
+.post {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl font-bold;
+  }
+  
+  strong {
+    @apply text-white font-bold;
+  }
+
+  .highlight {
+    @apply text-2xl font-serif p-8 italic;
+  }
+
+}
+
+.page-title {
+	@apply text-5xl;
+}
+
+figcaption {
+  @apply text-center text-sm italic text-gray-600 mt-2 mb-8;
+}
+
+// content
+.content {
+  
+	// paragraph
+	p {
+    @apply mb-8 text-base text-gray-400 leading-relaxed;
+
+    @screen md {
+      @apply text-xl;
+    }
+
+        // intro paragraph
+		// &:first-child {
+		// 	@apply text-xl mb-10 text-gray-100 font-serif leading-normal;
+
+		// 	@screen md {
+    //     @apply text-2xl;
+    //   }
+		// }
+  }
+
+}
