@@ -6,7 +6,7 @@ image_caption: (cc) ESO/B. Tafreshi  -  http://www.eso.org/public/images/pot
 excerpt: Have you ever dreamt of embarking on a voyage through space with the USS Enterprise?
 tags:
     - blog
-    - motivation
+    - Motivation
 ---
 
 <!-- Have you ever dreamt of embarking on a voyage through space with the USS Enterprise? -->

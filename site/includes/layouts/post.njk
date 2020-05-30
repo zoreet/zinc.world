@@ -36,7 +36,7 @@ layout: default
 
                             {%- if item != "blog" -%}
 
-                                <a href="/category/{{ item }}">{{ comma() }} {{ item | capitalize }}</a>
+                                {{ comma() }} <a href="/category/{{ item }}">{{ item }}</a>
 
                             {%- endif -%}
 
@@ -80,7 +80,7 @@ layout: default
                         {%- if item != "blog" -%}
 
                             <li class="mr-2 text-sm">
-                                <a href="/category/{{ item }}">#{{ item | capitalize }}</a>
+                                <a href="/category/{{ item }}">#{{ item }}</a>
                             </li>
 
                         {%- endif -%}

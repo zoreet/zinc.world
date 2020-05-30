@@ -3,8 +3,10 @@
     <img data-lazy="{{ photo.path }}" alt="{{ photo.alt }}" />
   </div>
 </figure>
-{% if photo.caption %}
-  <figcaption>{{ photo.caption }}</figcaption>
-{% else %}
-  <figcaption>{{ photo.alt }}</figcaption>
-{% endif %}
+<figcaption class="mb-10 md:mb-20">
+  {% if photo.caption %}
+    {{ photo.caption }}
+  {% else %}
+    {{ photo.alt }}
+  {% endif %}
+</figcaption>

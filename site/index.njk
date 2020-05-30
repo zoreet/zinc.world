@@ -45,7 +45,7 @@ title: Zinc, a designer who codes and <span class="text-red-600">♥️</span> t
                   <span class="border-r border-gray-600 pr-4 mr-4">{{ post.date | dateDisplay }}</span>
                   {% for item in post.data.tags %}
                     {%- if item != "blog" -%}
-                      <a class="text-gray-500 hover:text-red-600 mr-3" href="/category/{{ item }}/">#{{ item | capitalize }}</a>
+                      <a class="text-gray-500 hover:text-red-600 mr-3" href="/category/{{ item }}/">#{{ item }}</a>
                     {%- endif -%}
                   {% endfor %}
                 </div>
