@@ -53,4 +53,30 @@ figcaption {
 		// }
   }
 
+  img {
+    display: inline-block;
+  }
+
+  ul {
+    @apply mb-8;
+    list-style: disc;
+    list-style-position: inside;
+  }
+
+  table {
+    tr {
+      border-bottom: 1px solid;
+    }
+    td,
+    th {
+      @apply pb-3 pt-3;
+      
+      text-align: left;
+      vertical-align: top;
+    }
+    td + td,
+    th + th {
+      @apply pl-6;
+    }
+  }
 }
