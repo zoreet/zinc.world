@@ -713,6 +713,33 @@ figcaption {
   }
 }
 
+.content img {
+  display: inline-block;
+}
+
+.content ul {
+  margin-bottom: 2rem;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.content table tr {
+  border-bottom: 1px solid;
+}
+
+.content table td,
+.content table th {
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.content table td + td,
+.content table th + th {
+  padding-left: 1.5rem;
+}
+
 .container{
   width: 100%;
 }
