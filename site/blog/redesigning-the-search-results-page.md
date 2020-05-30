@@ -42,10 +42,8 @@ And with 2600+ properties available in cities like Paris that's easier said than
 
 With that in mind, I took a long look at the page and analyzed how it could better achieve it's goal.
 
-<figure class="sr-screenshot sr-old w-full mt-10 md:mt-20">
-  <img class="sr-old__annotations" src="/images/blog/redesigning-the-search-results-page/analysis.png" />
-</figure>
-<figcaption>Hover to see annotations</figcaption>
+{% set photo = { path: "/images/blog/redesigning-the-search-results-page/analysis.png", alt: "Booking.com's old Search Results page", caption: "Hover to see annotations", class: "sr-old" } %}
+{% include "components/blog-photo.njk" %}
 
 This helped me notice that we're **overwhelming users with information**. We show each and every room a hotel has 🤯. A lovely description, but probably useless at this point, a map of Paris so small it can't be effective and much more. We needed to sacrifice something to fit all that information in there, and that meant one thing: smaller photos.
 
@@ -54,10 +52,8 @@ The problem is that every single of these elements were introduced by very smart
 ## Vision
 
 I decided to go all in on the concept of comparison and see how far I can go with it. This is what I came up with:
-<figure class="sr-screenshot w-full mt-10 md:mt-20">
-  <img src="/images/blog/redesigning-the-search-results-page/draft.png" />
-</figure>
-<figcaption>Proposal for a new Search Results page</figcaption>
+{% set photo = { path: "/images/blog/redesigning-the-search-results-page/draft.png", alt: "Proposal for a new Search Results page", caption: "Proposal for a new Search Results page", class: "" } %}
+{% include "components/blog-photo.njk" %}
 
 Here is a breakdown of the changes:
 
@@ -122,10 +118,8 @@ The grid view. Unfortunately we never got to test this because it would require 
 
 During this process we crafted a page that is better at it's core task and - most importantly - it's **a page that customers love more**. And 6 years later you can still see all the changes that resulted from this one redesign.
 
-<figure class="sr-screenshot w-full mt-10 md:mt-20">
-  <img src="/images/blog/redesigning-the-search-results-page/now.png" />
-</figure>
-<figcaption>Search Results Page, 2020</figcaption>
+{% set photo = { path: "/images/blog/redesigning-the-search-results-page/now.png", alt: "Search Results Page, 2020", caption: "Search Results Page, 2020", class: "" } %}
+{% include "components/blog-photo.njk" %}
 
 
 
@@ -133,23 +127,16 @@ During this process we crafted a page that is better at it's core task and - mos
 
 
 <style>
-  .sr-screenshot {
-    width: 1366px;
-    max-width: 100vw;
-    margin-left: -50%;
-  }
-  .sr-screenshot img {
-    width: 100%;
-  }
   .sr-old {
-    background: #fff url(/images/blog/redesigning-the-search-results-page/old.png) no-repeat 50% 0;
+    background: url(/images/blog/redesigning-the-search-results-page/old.png) no-repeat 50% 0;
+    background-size: contain;
   }
-  .sr-old__annotations {
+  .sr-old img {
     pointer-events: none;
     transition: opacity 0.3s ease;
     opacity: 0;
   }
-  .sr-old:hover .sr-old__annotations {
+  .sr-old .sr-screenshot__inside:hover img {
     opacity: 1;
   }
 </style>

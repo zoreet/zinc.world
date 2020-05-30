@@ -20017,6 +20017,18 @@ figcaption {
   transition-delay: 1000ms;
 }
 
+.sr-screenshot {
+  display: block;
+  margin-left: 50%;
+  text-align: center;
+  transform: translateX(-50vw);
+  width: 100vw;
+}
+
+.sr-screenshot__inside {
+  display: inline-block;
+}
+
 @media (min-width: 640px){
   .sm\:space-y-0 > :not(template) ~ :not(template){
     --space-y-reverse: 0;

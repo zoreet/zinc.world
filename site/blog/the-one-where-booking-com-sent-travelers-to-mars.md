@@ -17,11 +17,11 @@ First, let me tell you how I got myself into this project. This morning I was ri
 
 At Booking, ideas flow freely and come, mostly, from the ground up. Everyone is encouraged to contribute ideas and to follow through with them. Even so, when I stole a few minutes from the Product Owner of Email Marketing to pitch a travel campaign for Mars, her reaction was better than I could have anticipated. Not only did she agree to change our Sunday campaign, but she rearranged her whole day so that we could start searching for otherworldly holiday destinations right here on Earth. Here are some of the gems that we found:
 
-<img data-lazy="https://cdn-images-1.medium.com/max/800/1*BEEp4hungBtNQslF-UwKzw.png" alt="Atacama" />
-<figcaption>Atacama, the driest desert on Earth. This is where NASA tests some of its rovers before they fly to Mars.</figcaption>
+{% set photo = { path: "https://cdn-images-1.medium.com/max/800/1*BEEp4hungBtNQslF-UwKzw.png", alt: "Atacama", caption: "Atacama, the driest desert on Earth. This is where NASA tests some of its rovers before they fly to Mars.", class: "" } %}
+{% include "components/blog-photo.njk" %}
 
-<img data-lazy="https://cdn-images-1.medium.com/max/800/1*P5HHyrkdZUP44o7HTGmK_A.png" alt="Rio Tinto" />
-<figcaption>The iron-stained Rio Tinto river bears an uncanny resemblance to Mars' hue.</figcaption>
+{% set photo = { path: "https://cdn-images-1.medium.com/max/800/1*P5HHyrkdZUP44o7HTGmK_A.png", alt: "Rio Tinto", caption: "The iron-stained Rio Tinto river bears an uncanny resemblance to Mars' hue.", class: "" } %}
+{% include "components/blog-photo.njk" %}
 
 These places are scattered all over the globe, some only 3 hours away from our office here in Amsterdam.
 

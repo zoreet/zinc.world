@@ -20,3 +20,15 @@
 // Import Tailwind utilities
 // TailwindCSS recommends leaving utilities till last to ensure they aren't overwritten.
 @tailwind utilities;
+
+.sr-screenshot {
+  display: block;
+  margin-left: 50%;
+  text-align: center;
+  transform: translateX(-50vw);
+  width: 100vw;
+}
+
+.sr-screenshot__inside {
+  display: inline-block;
+}
