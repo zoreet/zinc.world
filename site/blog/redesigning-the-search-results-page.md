@@ -1,7 +1,7 @@
 ---
 title: Redesigning the Search Results page
 date: 2020-05-28
-# featured_image: /images/blog/redesigning-the-search-results-page/old.png
+featured_image: /images/blog/redesigning-the-search-results-page/draft.png
 excerpt: The story of how I made an impossible redesing of Booking.com's Search Results page
 tags:
     - blog

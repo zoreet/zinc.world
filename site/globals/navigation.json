@@ -7,10 +7,6 @@
         {
           "label": "Blog",
           "url": "/blog/"
-        },
-        {
-            "label": "Hire me",
-            "url": "/about/"
         }
     ]
 }
