@@ -4,9 +4,9 @@
   </div>
 </figure>
 <figcaption class="mb-10 md:mb-20">
-  {% if photo.caption %}
+  {%- if photo.caption -%}
     {{ photo.caption }}
-  {% else %}
+  {%- else -%}
     {{ photo.alt }}
-  {% endif %}
+  {%- endif -%}
 </figcaption>
