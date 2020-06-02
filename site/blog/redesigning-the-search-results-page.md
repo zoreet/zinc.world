@@ -102,7 +102,7 @@ Once the roadmap was finalized I started working with FE and BE developers to im
 
 For almost all experiments we looked first for an increase in net conversion, followed by secondary metrics such as increase filtering, page load times etc.
 
-**██ tests were successful.** Bring filters to the top increase their use which in return improved both engagement with the page (people that interact with the page before leaving) and net conversion. Bigger images and bigger CTAs had a similar effect.
+**Most experiments were successful.** Bring filters to the top increase their use which in return improved both engagement with the page (people that interact with the page before leaving) and net conversion. Bigger images and bigger CTAs had a similar effect.
 
 **Some experiments failed.** Changing the background color to gray, and making each property block look more like a card increase the page height, and in return, people looked at fewer properties and booked less.
 
