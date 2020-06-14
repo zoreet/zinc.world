@@ -1,7 +1,7 @@
 ---
 title: My first A/B test
 date: 2020-05-17
-featured_image: /images/blog/my-first-a-b-test.jpg
+featured_image: /images/blog/cover.jpg
 excerpt: A plea for more designers to be data driven and validate their assumptions.
 tags:
     - blog
