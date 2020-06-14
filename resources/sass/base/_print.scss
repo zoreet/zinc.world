@@ -1,0 +1,40 @@
+@media print {
+
+  * {
+    color: #000 !important
+  }
+  body {
+    background-color: #fff !important;
+  }
+
+  html {
+    font-size: 12px;
+  }
+
+  em, figcaption {
+    font-family: serif;
+    font-size: inherit;
+  }
+
+  .content a:after {
+    content: " [" attr(href) "]";
+  }
+  .content > * {
+    page-break-inside: avoid;
+  }
+
+  header h1 {
+    text-align: center;
+  }
+
+  #header .company-logo-link {
+    text-align: center;
+    width: 100%;
+  }
+  #nav {
+    display: none;
+  }
+  #footer {
+    display: none;
+  }
+}

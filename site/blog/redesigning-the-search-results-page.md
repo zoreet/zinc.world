@@ -136,7 +136,7 @@ During this process, we crafted a page that is better at its core task and - mos
     transition: opacity 0.3s ease;
     opacity: 0;
   }
-  .sr-old .sr-screenshot__inside:hover img {
+  .sr-old .screenshot__inside:hover img {
     opacity: 1;
   }
 </style>

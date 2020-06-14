@@ -740,6 +740,50 @@ figcaption {
   padding-left: 1.5rem;
 }
 
+@media print {
+  * {
+    color: #000 !important;
+  }
+
+  body {
+    background-color: #fff !important;
+  }
+
+  html {
+    font-size: 12px;
+  }
+
+  em, figcaption {
+    font-family: serif;
+    font-size: inherit;
+  }
+
+  .content a:after {
+    content: " [" attr(href) "]";
+  }
+
+  .content > * {
+    page-break-inside: avoid;
+  }
+
+  header h1 {
+    text-align: center;
+  }
+
+  #header .company-logo-link {
+    text-align: center;
+    width: 100%;
+  }
+
+  #nav {
+    display: none;
+  }
+
+  #footer {
+    display: none;
+  }
+}
+
 .container{
   width: 100%;
 }
@@ -20017,7 +20061,7 @@ figcaption {
   transition-delay: 1000ms;
 }
 
-.sr-screenshot {
+.screenshot {
   display: block;
   margin-left: 50%;
   text-align: center;
@@ -20025,7 +20069,7 @@ figcaption {
   width: 100vw;
 }
 
-.sr-screenshot__inside {
+.screenshot__inside {
   display: inline-block;
 }
 
