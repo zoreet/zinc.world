@@ -32,3 +32,18 @@
 .sr-screenshot__inside {
   display: inline-block;
 }
+
+@media print {
+
+  * {
+    color: #000 !important
+  }
+
+  html {
+    font-size: 12px;
+  }
+
+  em {
+    font-style: normal;
+  }
+}
