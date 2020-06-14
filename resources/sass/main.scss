@@ -43,7 +43,14 @@
     font-size: 12px;
   }
 
-  em {
+  em, figcaption {
     font-style: normal;
+  }
+
+  #nav {
+    display: none;
+  }
+  #footer {
+    display: none;
   }
 }
