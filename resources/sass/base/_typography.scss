@@ -50,7 +50,18 @@ figcaption {
 		// 	@screen md {
     //     @apply text-2xl;
     //   }
-		// }
+    // }
+    code {
+      @apply bg-gray-700 text-white px-2 py-1 rounded-sm;
+      display: inline-block;
+      font-size: 0.9em;
+      line-height: 1.25em;
+    }
+  }
+
+  pre[class*=language-] {
+    @apply mb-8 bg-gray-800;
+    font-size: 1rem;
   }
 
   img {
@@ -78,5 +89,10 @@ figcaption {
     th + th {
       @apply pl-6;
     }
+  }
+
+  * + h2,
+  * + h3, {
+    @apply mt-16;
   }
 }

@@ -1,4 +1,21 @@
 const htmlmin = require("html-minifier")
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+
+// BEAUTIFY CODE
+const beautifyHTML = require('js-beautify').html;
+const beautifyCSS = require('js-beautify').css;
+
+const beautifySettings = {
+  "indent_size": "2",
+  "indent_char": " ",
+  "end_with_newline": false,
+};
+
+
+
+// MINIFY CSS
+const CleanCSS = require("clean-css");
+
 
 module.exports = eleventyConfig => {
 
@@ -21,6 +38,8 @@ module.exports = eleventyConfig => {
         }
         return content
     })
+
+    eleventyConfig.addPlugin(syntaxHighlight);
 
     // Collections
     eleventyConfig.addCollection('blog', collection => {
