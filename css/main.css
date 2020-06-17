@@ -713,6 +713,31 @@ figcaption {
   }
 }
 
+.content p code {
+  --bg-opacity: 1;
+  background-color: #4a5568;
+  background-color: rgba(74, 85, 104, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.125rem;
+  display: inline-block;
+  font-size: 0.9em;
+  line-height: 1.25em;
+}
+
+.content pre[class*=language-] {
+  margin-bottom: 2rem;
+  --bg-opacity: 1;
+  background-color: #2d3748;
+  background-color: rgba(45, 55, 72, var(--bg-opacity));
+  font-size: 1rem;
+}
+
 .content img {
   display: inline-block;
 }
@@ -740,48 +765,192 @@ figcaption {
   padding-left: 1.5rem;
 }
 
+.content * + h2,
+.content * + h3 {
+  margin-top: 4rem;
+}
+
 @media print {
+  html {
+    font-size: 3mm;
+  }
+
+  .content h2 {
+    font-size: 6mm;
+  }
+
+  .content h3 {
+    font-size: 4mm;
+  }
+
+  .content {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
   * {
     color: #000 !important;
   }
 
   body {
-    background-color: #fff !important;
-  }
-
-  html {
-    font-size: 12px;
+    background: none !important;
   }
 
   em, figcaption {
-    font-family: serif;
+    font-family: sans-serif;
     font-size: inherit;
   }
 
   .content a:after {
-    content: " [" attr(href) "]";
+    content: " (" attr(href) ")";
+    font-style: italic;
+    font-family: sans-serif;
   }
 
-  .content > * {
-    page-break-inside: avoid;
+  .content a[href^="#"]:after {
+    display: none;
+  }
+
+  header .company-logo-link {
+    text-align: center;
+    width: 100%;
+  }
+
+  header nav {
+    display: none !important;
   }
 
   header h1 {
     text-align: center;
   }
 
-  #header .company-logo-link {
-    text-align: center;
-    width: 100%;
+  footer {
+    display: none !important;
   }
+}
 
-  #nav {
-    display: none;
-  }
+/**
+* Dracula Theme originally by Zeno Rocha [@zenorocha]
+* https://draculatheme.com/
+*
+* Ported for PrismJS by Albert Vallverdu [@byverdu]
+*/
 
-  #footer {
-    display: none;
-  }
+code[class*=language-],
+pre[class*=language-] {
+  color: #f8f8f2;
+  background: none;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+
+pre[class*=language-] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+}
+
+:not(pre) > code[class*=language-],
+pre[class*=language-] {
+  background: #282a36;
+}
+
+/* Inline code */
+
+:not(pre) > code[class*=language-] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6272a4;
+}
+
+.token.punctuation {
+  color: #f8f8f2;
+}
+
+.namespace {
+  opacity: 0.7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #ff79c6;
+}
+
+.token.boolean,
+.token.number {
+  color: #bd93f9;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #50fa7b;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+  color: #f1fa8c;
+}
+
+.token.keyword {
+  color: #8be9fd;
+}
+
+.token.regex,
+.token.important {
+  color: #ffb86c;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
 }
 
 .container{
