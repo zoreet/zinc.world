@@ -274,8 +274,8 @@ var $$ = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/vladzinculescu/code/zinc.world/resources/js/main.js */"./resources/js/main.js");
-module.exports = __webpack_require__(/*! /Users/vladzinculescu/code/zinc.world/resources/sass/main.scss */"./resources/sass/main.scss");
+__webpack_require__(/*! /Users/zinc/Dropbox/work/web/world/zinc/zinc.world/resources/js/main.js */"./resources/js/main.js");
+module.exports = __webpack_require__(/*! /Users/zinc/Dropbox/work/web/world/zinc/zinc.world/resources/sass/main.scss */"./resources/sass/main.scss");
 
 
 /***/ })
