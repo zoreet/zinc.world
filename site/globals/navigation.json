@@ -5,8 +5,8 @@
             "url": "/"
         },
         {
-          "label": "Blog",
-          "url": "/blog/"
+            "label": "Hire me",
+            "url": "mailto:vladzinculescu@gmail.com"
         }
     ]
 }
