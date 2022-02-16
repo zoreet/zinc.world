@@ -1,6 +1,10 @@
 
 //==========  Typography ==========//
 
+body {
+  @apply text-gray-200;
+}
+
 // headings
 h1, h2, h3 {
     @apply font-bold leading-tight mt-0 mb-6 text-white;
@@ -13,15 +17,15 @@ h1, h2, h3 {
   h2 {
     @apply text-3xl font-bold;
   }
-  
-  strong {
-    @apply text-white font-bold;
-  }
 
   .highlight {
     @apply text-2xl font-serif p-8 italic;
   }
 
+}
+
+strong {
+  @apply text-gray-50 font-bold;
 }
 
 .page-title {
@@ -34,10 +38,10 @@ figcaption {
 
 // content
 .content {
-  
+
 	// paragraph
 	p {
-    @apply mb-8 text-base text-gray-400 leading-relaxed;
+    @apply mb-8 text-base leading-relaxed;
 
     @screen md {
       @apply text-xl;
@@ -81,7 +85,7 @@ figcaption {
     td,
     th {
       @apply pb-3 pt-3;
-      
+
       text-align: left;
       vertical-align: top;
     }

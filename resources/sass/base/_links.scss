@@ -1,22 +1,11 @@
 
 //==========  Links ==========//
 
-.post {
-  a:not([class]) { 
-    @apply text-gray-400 font-normal border-0 underline;
-  }
-}
-
 a {
-    @apply text-white border-red-700 font-bold no-underline transition-all duration-300 ease-out;
+    @apply text-red-400 no-underline;
 
-    &:not([class]) {
-        border-bottom-width: 2px;
-
-        &:hover {
-            @apply text-red-600;
-        }
-    }
+      &:hover {
+        @apply underline;
+        text-decoration-thickness: 2px;
+      }
 }
-
-
