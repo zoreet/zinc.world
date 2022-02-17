@@ -2,7 +2,7 @@
 //==========  Typography ==========//
 
 body {
-  @apply text-gray-200;
+  @apply text-gray-100;
 }
 
 // headings
@@ -79,6 +79,8 @@ figcaption {
   }
 
   table {
+    text-align: start;
+
     tr {
       border-bottom: 1px solid;
     }

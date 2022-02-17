@@ -39,7 +39,7 @@ title: Zinc, a designer who codes and <span class="text-red-500">♥️</span> t
                 <div class="text-gray-500 text-base mb-1">
                   {% for item in post.data.tags %}
                     {%- if item != "blog" -%}
-                      <a class="font-normal {% if item == "Case Study" %}text-teal-500{% else %}text-red-400{% endif %} mr-3" href="/category/{{ item }}/">{{ item }}</a>
+                      <a class="font-normal {% if item == "Case Study" %}bg-yellow-500 hover:bg-yellow-400 px-2 py-1 rounded text-black hover:no-underline{% else %}text-red-400{% endif %} mr-3" href="/category/{{ item }}/">{{ item }}</a>
                     {%- endif -%}
                   {% endfor %}
                 </div>

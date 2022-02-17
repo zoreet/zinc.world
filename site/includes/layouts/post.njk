@@ -13,37 +13,15 @@ layout: default
                 <h1 class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl">{{ title }}</h1>
             </header>
 
-            <div class="text-sm md:text-base flex justify-center">
+            <div class="text-sm md:text-base md:flex justify-center">
 
-                <p class="author">By {{ site.author.name }}</p>
-
-                <p class="px-2">—</p>
-
-                <time datetime="{{ date }}">
-                    {{ date | dateDisplay }}
-                </time>
+                <p class="author mb-3 md:mb-0">By {{ site.author.name }} on {{ date | dateDisplay }}</p>
 
                 {% if tags %}
-
-                    {# this will create a comma for multiple category links #}
-                    {% set comma = joiner() %}
-
-                    <p class="px-2">—</p>
-
+                    <p class="px-2 hidden md:inline">—</p>
                     <p class="category">Posted in
-
-                        {% for item in tags %}
-
-                            {%- if item != "blog" -%}
-
-                                {{ comma() }} <a href="/category/{{ item }}">{{ item }}</a>
-
-                            {%- endif -%}
-
-                        {% endfor %}
-
+                        {% include "components/list-of-tags.njk" %}
                     </p>
-
                 {% endif %}
 
             </div>
@@ -70,26 +48,6 @@ layout: default
         <div class="content post md:px-24 lg:px-48">
 
             {{ content | safe }}
-
-            {# category links list #}
-            {% if tags %}
-                <ul class="flex pt-4">
-
-                    {% for item in tags %}
-
-                        {%- if item != "blog" -%}
-
-                            <li class="mr-2 text-sm">
-                                <a href="/category/{{ item }}">#{{ item }}</a>
-                            </li>
-
-                        {%- endif -%}
-
-                    {% endfor %}
-
-                </ul>
-
-            {% endif %}
 
         </div>
 

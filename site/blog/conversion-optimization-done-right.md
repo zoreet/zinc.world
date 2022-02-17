@@ -33,4 +33,7 @@ During my first months in the Search Result team, I ran A/B tests, interviewed u
 - Proof that a strategic approach to conversion optimization is the most profitable thing to do, even though it's initially slow.
 
 ## Case study
-<div class="case-study"><iframe class="case-study__figma" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="960" height="640" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsPqfR9EZ1RYWugag3j9OgS%2F05.-Conversion-optimization-done-right.%3Fnode-id%3D463%253A624%26scaling%3Dscale-down" allowfullscreen></iframe></div>
+<div class="case-study">
+    <iframe class="figma hidden md:block" width="960" height="640" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsPqfR9EZ1RYWugag3j9OgS%2F05.-Conversion-optimization-done-right.%3Fnode-id=463%253A624&scaling=contain" allowfullscreen></iframe>
+</div>
+<p class="md:hidden">Not available on mobile. The case study is built in Figma and designed to be viewed on a tablet or larger screens. Sorry :(</p>
