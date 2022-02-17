@@ -263,7 +263,7 @@ var $$ = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/src/index.js):\nSyntaxError\n\n(638:3) The `rounded` class does not exist. If `rounded` is a custom class, make sure it is defined within a `@layer` directive.\n\n \u001b[90m 636 | \u001b[39m\u001b[33m.form\u001b[39m \u001b[33m.input,\u001b[39m\n \u001b[90m 637 | \u001b[39m\u001b[33m.form\u001b[39m \u001b[33m.textarea\u001b[39m \u001b[33m{\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 638 | \u001b[39m  \u001b[36m@apply\u001b[39m border-gray-200 rounded p-3 w-full transition-all duration-300 ease-out\u001b[33m;\u001b[39m\n \u001b[90m     | \u001b[39m  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 639 | \u001b[39m\u001b[33m}\u001b[39m\n \u001b[90m 640 | \u001b[39m\u001b[33m.form\u001b[39m \u001b[33m.input\u001b[39m\u001b[33m:\u001b[39mfocus,\n\n    at /Users/zinc/Dropbox/work/web/world/zinc/zinc.world/node_modules/webpack/lib/NormalModule.js:316:20\n    at /Users/zinc/Dropbox/work/web/world/zinc/zinc.world/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Users/zinc/Dropbox/work/web/world/zinc/zinc.world/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/Users/zinc/Dropbox/work/web/world/zinc/zinc.world/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at /Users/zinc/Dropbox/work/web/world/zinc/zinc.world/node_modules/postcss-loader/src/index.js:207:9");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
