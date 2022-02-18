@@ -1,9 +1,9 @@
-<figure class="screenshot mt-10 md:mt-20 {{ photo.class }}">
+<figure class="screenshot mt-10 mx-auto {{ photo.class }}">
   <div class="screenshot__inside">
-    <img data-lazy="{{ photo.path }}" alt="{{ photo.alt }}" />
+    <img src="{{ photo.path }}" alt="{{ photo.alt }}" class="rounded-xl" />
   </div>
 </figure>
-<figcaption class="mb-10 md:mb-20">
+<figcaption class="mb-0 text-gray-100 not-italic">
   {%- if photo.caption -%}
     {{ photo.caption }}
   {%- else -%}

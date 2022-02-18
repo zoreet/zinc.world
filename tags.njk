@@ -1,0 +1,28 @@
+---
+layout: default
+meta_title: Categories
+meta_description: Categories page description
+body_class: posts
+title: Categories
+pagination:
+  data: collections
+  size: 1
+  alias: category
+permalink: /category/{{ category }}/
+---
+
+<div class="text-4xl text-center mt-8 mb-2 font-semibold">Category</div>
+<h1 class="text-4xl tablet:text-8xl leading-snug text-center mt-0 mb-4 w-full max-w-6xl mx-auto px-6">{{ category }}</h1>
+<main class="w-full tablet:max-w-6xl mx-auto px-6 flex flex-1 flex-col pb-10 lg:pb-20 focus:outline-none text-lg" tabindex="-1">
+    <div class="post-width text-gray-200 text-xl font-normal uppercase border-b border-gray-700 pb-4 mb-4 mt-16">Latests posts</div>
+    {% for post in collections[category] %}
+      <article class="post-width mb-8">
+          <h2 class="mt-1 mb-2 text-3xl">
+              <a class="text-white" href="{{ post.url }}">
+                  {{ post.data.title }}
+              </a>
+          </h2>
+          <p>{{ post.data.excerpt }}<p>
+      </article>
+    {% endfor %}
+</main>

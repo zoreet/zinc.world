@@ -37,11 +37,11 @@
     <link rel="canonical" href="{{ meta.url }}{{ page.url }}">
 </head>
 
-<body {% if body_class %} id="{{ body_class }}"{% endif %} class="bg-black leading-normal text-lg">
+<body class="text-base leading-7 {% if body_class %}{{ body_class }}{% endif %}">
 
     <a class="sr-only" href="#main">Skip to content</a>
 
-    <div id="wrapper" class="wrapper pb-16 md:pb-0 flex flex-col relative min-h-screen">
+    <div id="wrapper" class="wrapper flex flex-col relative min-h-screen">
 
         {# include header #}
         {% include "components/header.njk" %}

@@ -1,0 +1,18 @@
+---
+layout: default
+body_class: posts
+---
+
+<h1 class="text-4xl tablet:text-8xl leading-snug text-center mt-8 mb-4 w-full max-w-6xl mx-auto px-6">{{title}}</h1>
+<div class="text-sm tablet:text-base tablet:flex justify-center mb-16 text-center">
+    <p class="author">By {{ meta.author.name }} on {{ date | readableDate }}</p>
+</div>
+<main class="post w-full tablet:max-w-6xl mx-auto px-6 flex flex-1 flex-col pb-10 lg:pb-20 focus:outline-none text-lg" tabindex="-1">
+    {{ content | safe }}
+
+    {% if tags %}
+        <p class="category border-t pt-10">Posted in
+            {% include "components/list-of-tags.njk" %}
+        </p>
+    {% endif %}
+</main>
