@@ -5,6 +5,7 @@
   "scripts": {
     "clean": "rimraf output",
     "dev": "npm run clean && eleventy --serve & npx tailwindcss -i css/main.css -o css/main.min.css --watch",
+    "build": "npx tailwindcss -i css/main.css -o css/main.min.css --minify && eleventy",
     "debug": "npm run clean && DEBUG=Eleventy* eleventy --serve & npx tailwindcss -i css/main.css -o output/css/main.min.css --watch"
   },
   "repository": {
