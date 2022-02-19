@@ -4,14 +4,14 @@
 
 {# Twitter #}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ meta.name }}">
+<meta name="twitter:title" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }} | {{ meta.name }}{% endif %}">
 <meta name="twitter:description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
 <meta name="twitter:site" content="{{ meta.author.handle }}">
 <meta name="twitter:creator" content="{{ meta.author.handle }}">
 <meta name="twitter:image:src" content="{{ meta.url }}{{ meta.images.twitter }}">
 
 {# Open Graph #}
-<meta name="og:title" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ meta.name }}">
+<meta name="og:title" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }} | {{ meta.name }}{% endif %}">
 <meta name="og:description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
 <meta name="og:image" content="{{ meta.url }}{{ meta.images.og }}">
 <meta name="og:url" content="{{ meta.url }}{{ page.url }}">
