@@ -299,9 +299,12 @@ pre[class*="language-"] {
   @apply rounded-xl;
 }
 
+.post table {
+  @apply border-t;
+}
 .post th,
-.post tr:not(:last-child) td {
-  @apply border-b-2;
+.post td {
+  @apply border-b;
 }
 .post th,
 .post td {

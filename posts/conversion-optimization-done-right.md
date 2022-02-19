@@ -14,7 +14,10 @@ tags:
 | --- | --- |
 | **Product:** | Search Results page |
 | **Role:** | Project Lead & UX Designer |
-| **Challenge:** | Help customers find the right property for their trip from the Search Results page. |
+
+
+## Challenge
+Help customers find the right property for their trip from the Search Results page. Small changes shipped through A/B tests are not solving the more significant issues of the page. How can we roll out an extensive redesign and still understand each change's value?
 
 ## Context
 Back then, Booking.com had a very efficient formula to growing the business: **small step optimizations via A/B tests**. If net conversion went up, the tested feature was deemed valuable. Otherwise, it was dropped. And we were discouraged from embarking on long-term projects. Instead, we should ~~tweak the UI~~ get things done.
