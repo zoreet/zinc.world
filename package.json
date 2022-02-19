@@ -1,7 +1,7 @@
 {
   "name": "zinc.world",
   "version": "2.0.0",
-  "description": "Zinc, a designer who codes and ♥️ the web.",
+  "description": "Vlad Zinculescu, a designer who codes and ♥️ the web.",
   "scripts": {
     "clean": "rimraf output",
     "dev": "npm run clean && eleventy --serve & npx tailwindcss -i css/main.css -o css/main.min.css --watch",
