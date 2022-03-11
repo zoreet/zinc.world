@@ -24,11 +24,11 @@
 
 
 @font-face {
-  font-family: "Neue World";
+  font-family: "Eksell";
   src: url("/fonts/NeueWorld-Regular.woff2") format("woff2");
 }
 .zinculescu {
-  font-family: 'Neue World', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Eksell', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* HEADER ON HOME */
@@ -44,6 +44,7 @@ body {
   --background-fade-out-end: 80vh;
 
   background-image:
+    url(/images/texture-dark-70.png),
     radial-gradient(circle at 50vw var(--background-vertical-offset), transparent var(--background-fade-out-start), theme('colors.zinc.800') var(--background-fade-out-end)),
     repeating-radial-gradient( circle at 50vw var(--background-vertical-offset), transparent 0, theme('colors.zinc.800') var(--background-radial-size) ),
     repeating-linear-gradient( theme('colors.zinc.900'), theme('colors.zinc.800') );
@@ -64,6 +65,7 @@ body {
   margin-bottom: 4vw;
   text-align: center;
   text-transform: uppercase;
+  text-shadow: 0 0.05em 0.1em black
 }
 .company-logo-link,
 .main {
@@ -139,7 +141,7 @@ strong {
 }
 
 a {
-  @apply text-red-400 no-underline;
+  @apply text-red-400 no-underline relative;
 }
 a:hover {
   @apply underline;
@@ -323,4 +325,8 @@ pre[class*="language-"] {
   @apply rounded-xl drop-shadow-lg;
   width: 100%;
   aspect-ratio: 16/9;
+}
+
+.footer {
+  background-image: url(/images/texture-dark-50.png);
 }

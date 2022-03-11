@@ -6,5 +6,4 @@ todo.md
 - 404
 - sitemap
 - favicon looks too small
-- sharing bugs
 - link to github, insta, dribbble?, youtube?

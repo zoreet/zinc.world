@@ -5,6 +5,7 @@ module.exports = {
     "./includes/**/*.njk",
     "./posts/**/*.md",
     "./*.njk",
+    "./*.md",
   ],
   theme: {
     extend: {

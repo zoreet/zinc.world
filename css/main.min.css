@@ -528,12 +528,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column-start: 1;
 }
 
+.col-start-2{
+  grid-column-start: 2;
+}
+
 .col-start-3{
   grid-column-start: 3;
 }
 
 .col-end-3{
   grid-column-end: 3;
+}
+
+.col-end-4{
+  grid-column-end: 4;
 }
 
 .mx-auto{
@@ -704,6 +712,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-16{
   gap: 4rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .gap-4{
@@ -986,13 +998,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 } */
 
 @font-face {
-  font-family: "Neue World";
+  font-family: "Eksell";
 
   src: url("/fonts/NeueWorld-Regular.woff2") format("woff2");
 }
 
 .zinculescu {
-  font-family: 'Neue World', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Eksell', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* HEADER ON HOME */
@@ -1012,6 +1024,7 @@ body{
   --background-fade-out-start: 30vw;
   --background-fade-out-end: 80vh;
   background-image:
+    url(/images/texture-dark-70.png),
     radial-gradient(circle at 50vw var(--background-vertical-offset), transparent var(--background-fade-out-start), #211F2E var(--background-fade-out-end)),
     repeating-radial-gradient( circle at 50vw var(--background-vertical-offset), transparent 0, #211F2E var(--background-radial-size) ),
     repeating-linear-gradient( #0E0E15, #211F2E );
@@ -1034,6 +1047,7 @@ body{
   margin-bottom: 4vw;
   text-align: center;
   text-transform: uppercase;
+  text-shadow: 0 0.05em 0.1em black
 }
 
 .company-logo-link,
@@ -1123,6 +1137,7 @@ strong{
 }
 
 a{
+  position: relative;
   --tw-text-opacity: 1;
   color: rgb(255 108 99 / var(--tw-text-opacity));
   -webkit-text-decoration-line: none;
@@ -1348,6 +1363,10 @@ code[class*="language-"], pre[class*="language-"]{
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
   width: 100%;
   aspect-ratio: 16/9;
+}
+
+.footer {
+  background-image: url(/images/texture-dark-50.png);
 }
 
 .hover\:bg-yellow-400:hover{

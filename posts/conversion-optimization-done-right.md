@@ -10,6 +10,8 @@ tags:
     - Conversion Optimization
 ---
 
+<img src="/images/blog/sr.png">
+
 | **Company:** | <a href="https://booking.com" target="_blank">Booking.com</a> |
 | --- | --- |
 | **Product:** | Search Results page |
