@@ -14,7 +14,7 @@ I get it. You want to show you got what it takes, so you come up with an excitin
 
 ## Things don't go according to plan
 
-In real life, things don't go so smoothly and I'm interested in how you deal with the challenges. First of all, the requirements are not always well defined, and they will likely change once the project is underway and the depth of the problem because obvious. You could also jump in projects pressed by a tight deadline. Most times, you're probably working in a multi-disciplinary team with many opinions and personal goals. And even after you navigate all of this, the users might reject your solution. What do you do then?
+In real life, things don't go so smoothly and I'm interested in how you deal with the challenges. First of all, the requirements are not always well defined, and they will likely change once the project is underway and the depth of the problem becomes obvious. You could also jump in projects pressed by a tight deadline. Most times, you're probably working in a multi-disciplinary team with many opinions and personal goals. And even after you navigate all of this, the users might reject your solution. What do you do then?
 
 ## What I look for in a candidate
 In an interview, I look for three things in a candidate:
