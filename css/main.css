@@ -245,7 +245,7 @@ code {
   @apply w-full max-w-3xl mx-auto ;
 }
 .post p {
-  @apply text-lg leading-7 font-normal tracking-wide text-justify;
+  @apply text-lg leading-7 font-normal tracking-wide;
 }
 .post > *:not(:first-child) {
   @apply mt-10;
