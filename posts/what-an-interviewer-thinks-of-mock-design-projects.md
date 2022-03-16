@@ -1,7 +1,7 @@
 ---
 title: What an interviewer thinks of mock design projects
 date: 2022-03-11
-# featured_image: /images/blog/redesigning-the-search-results-page/draft.png
+featured_image: /images/blog/22/mar/mock-design-cover.png
 excerpt: You're at the start of your UX career and don't have much to show in your portfolio. Maybe you haven't landed your first gig yet. What can you do? A lot of designers go to mock projects. But there's a problem with this approach.
 tags:
     - blog

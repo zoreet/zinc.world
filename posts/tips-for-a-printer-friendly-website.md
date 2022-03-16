@@ -1,7 +1,7 @@
 ---
 title: 4 tips for a printer-friendly website
 date: 2020-06-14
-featured_image: /images/blog/tips-for-printer-friendly-websites/cover.png
+featured_image: /images/blog/22/mar/print-cover.png
 excerpt: To get you started, I put together some CSS snippets that will take you a long way.
 tags:
     - blog

@@ -1,15 +1,14 @@
 ---
 title: The one where Booking.com sent travelers to Mars
 date: 2015-10-01
-featured_image: https://cdn-images-1.medium.com/max/2560/1*yyLFlSrLUTrVKpsRa0OoOg.jpeg
-image_caption: (cc) ESO/B. Tafreshi  -  http://www.eso.org/public/images/potw1241a/
+featured_image: /images/blog/22/mar/mars-cover.png
 excerpt: Have you ever dreamt of embarking on a voyage through space with the USS Enterprise?
 tags:
     - blog
-    - Fun
+    - Original
 ---
 
-<!-- Have you ever dreamt of embarking on a voyage through space with the USS Enterprise? -->
+<!-- Have you ever dreamt of embarking on a voyage through space with the USS Enterprise?</p> -->
 
 The date is October 1st, 2015. For the last 3 hours, I've been researching as much as I can about Mars, occasionally stopping to drool over those beautiful red-tinted landscapes. I'm working on an email campaign titled *Add Mars to your travel bucket list*  -  funny for a designer working at Booking.com, *Planet Earth's #1 Accommodation Site*.
 

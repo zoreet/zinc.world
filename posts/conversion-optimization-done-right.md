@@ -1,7 +1,7 @@
 ---
 title: Conversion optimization done right
 date: 2020-05-28
-# featured_image: /images/blog/redesigning-the-search-results-page/draft.png
+featured_image: /images/blog/22/mar/sr-cover.png
 excerpt: Help customers find the right property for their trip from the Search Results page.
 tags:
     - blog

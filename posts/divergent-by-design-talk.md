@@ -1,7 +1,7 @@
 ---
 title: Divergent by Design
 date: 2016-06-15
-# featured_image: /images/blog/redesigning-the-search-results-page/draft.png
+featured_image: /images/blog/22/mar/divergent-cover.png
 excerpt: Talk for Beneath the surface - UX @ Booking.com
 tags:
     - blog

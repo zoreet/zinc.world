@@ -1,7 +1,7 @@
 ---
 title: 3 skills I look for when interviewing designers
 date: 2022-03-14
-# featured_image: /images/blog/redesigning-the-search-results-page/draft.png
+featured_image: /images/blog/22/mar/three-skills-cover.png
 excerpt: Over the past years, I interviewed 100+ mid-level or senior UX and product designers. I always look for these three skills during a portfolio review or a design exercise.
 tags:
     - blog

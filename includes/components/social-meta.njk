@@ -8,13 +8,21 @@
 <meta name="twitter:description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
 <meta name="twitter:site" content="{{ meta.author.handle }}">
 <meta name="twitter:creator" content="{{ meta.author.handle }}">
+{% if featured_image %}
+<meta name="twitter:image:src" content="{{ featured_image }}">
+{% else %}
 <meta name="twitter:image:src" content="https://v1.screenshot.11ty.dev/{{page.url | productionUrl | encode}}/opengraph">
+{% endif %}
 
 {# Open Graph #}
 <meta name="og:title" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }} | {{ meta.title }}{% endif %}">
 <meta name="og:description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
-<meta name="og:image" content="https://v1.screenshot.11ty.dev/{{page.url | productionUrl | encode}}/opengraph">
 <meta name="og:url" content="{{ meta.url }}{{ page.url }}">
 <meta name="og:site_name" content="{{ meta.title }}">
 <meta name="og:locale" content="en_GB">
 <meta name="og:type" content="website">
+{% if featured_image %}
+<meta name="og:image" content="{{ featured_image }}">
+{% else %}
+<meta name="og:image" content="https://v1.screenshot.11ty.dev/{{page.url | productionUrl | encode}}/opengraph">
+{% endif %}
