@@ -3,10 +3,8 @@
     <img src="{{ photo.path }}" alt="{{ photo.alt }}" class="rounded-xl" />
   </div>
 </figure>
-<figcaption class="mb-0 text-gray-100 not-italic">
-  {%- if photo.caption -%}
+{%- if photo.caption -%}
+  <figcaption class="mb-0 text-gray-100 not-italic">
     {{ photo.caption }}
-  {%- else -%}
-    {{ photo.alt }}
-  {%- endif -%}
-</figcaption>
+  </figcaption>
+{%- endif -%}

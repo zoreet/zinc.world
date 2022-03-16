@@ -13,7 +13,7 @@ A/B testing is a simple UX research methodology for understanding user engagemen
 
 On our city landing pages, we have a block with recommended properties. You click on one of them and you go to the property page. Simple.
 
-{% set photo = { path: "/images/blog/my-first-a-b-test/promoted-properties.jpg", alt: "Places we love in Bucharest", caption: "", class: "" } %}
+{% set photo = { path: "/images/blog/20/may/promoted-properties.jpg", alt: "Places we love in Bucharest", caption: "", class: "" } %}
 {% include "components/blog-photo.njk" %}
 
 The product owner in my team asked me to help set up an A/B test in this area:
@@ -26,7 +26,7 @@ You see my PO spent the last couple of evenings watching tens of videos of users
 
 <p class="highlight">Who’s going to land on a city page and book the first hotel the see? You’re going on vacation and you want to make sure you get a great deal for your hotel so that you have more money to spend on activities when you arrive there. This is not impulse shopping where you buy bubble gum on your way to the counter. We’re not H&M where you buy a wedding dress just because it was on sale at 4.99.
 
-{% set photo = { path: "/images/blog/my-first-a-b-test/friends-wedding-dress.gif", alt: "https://gph.is/g/ZrBjO2j", caption: "", class: "" } %}
+{% set photo = { path: "/images/blog/20/may/friends-wedding-dress.gif", alt: "https://gph.is/g/ZrBjO2j", caption: "", class: "" } %}
 {% include "components/blog-photo.njk" %}
 
 This taught me that my education, the fact that <a href="https://ecsspert.com">my website</a> went viral, and got me a job at Booking.com — the Mecca of design with data — all of this doesn’t mean anything if I’ll be arrogant and think I know best.

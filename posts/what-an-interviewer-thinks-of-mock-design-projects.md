@@ -5,7 +5,7 @@ date: 2022-03-11
 excerpt: You're at the start of your UX career and don't have much to show in your portfolio. Maybe you haven't landed your first gig yet. What can you do? A lot of designers go to mock projects. But there's a problem with this approach.
 tags:
     - blog
-    - interview
+    - Interview
 ---
 
 You're at the start of your UX career and don't have much to show in your portfolio. Maybe you haven't landed your first gig yet. What can you do? A lot of designers go to mock projects.

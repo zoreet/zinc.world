@@ -10,7 +10,8 @@ tags:
     - Conversion Optimization
 ---
 
-<img src="/images/blog/sr.png">
+{% set photo = { path: "/images/blog/20/may/high-five.png", alt: "Booking.com and customer high five", caption: "", class: "" } %}
+{% include "components/blog-photo.njk" %}
 
 | **Company:** | <a href="https://booking.com" target="_blank">Booking.com</a> |
 | --- | --- |

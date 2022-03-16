@@ -6,8 +6,12 @@ excerpt: To get you started, I put together some CSS snippets that will take you
 tags:
     - blog
     - CSS
+    - Code
     - Print
 ---
+
+{% set photo = { path: "/images/blog/20/jun/printer.png", alt: "Printer", caption: "", class: "" } %}
+{% include "components/blog-photo.njk" %}
 
 Printing a website doesn't mean just *printing on paper*. I, for one, like to print my articles as PDFs, so I resist the constant urge of tweaking them.
 

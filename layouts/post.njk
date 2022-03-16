@@ -11,7 +11,8 @@ body_class: posts
     {{ content | safe }}
 
     {% if tags %}
-        <p class="category border-t pt-10">Posted in
+        <hr class="pb-8" />
+        <p class="category">Posted in
             {% include "components/list-of-tags.njk" %}
         </p>
     {% endif %}

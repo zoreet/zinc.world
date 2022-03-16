@@ -152,7 +152,7 @@ a:hover {
   @apply text-4xl;
 }
 .post h2 {
-  @apply text-3xl font-bold;
+  @apply text-4xl font-bold mt-16;
 }
 
 figcaption {
@@ -237,6 +237,7 @@ code {
 .post p,
 .post h2,
 .post h3,
+.post hr,
 .post ul,
 .post table,
 .post pre,
@@ -247,11 +248,12 @@ code {
 .post p {
   @apply text-lg leading-7 font-normal tracking-wide;
 }
-.post > *:not(:first-child) {
-  @apply mt-10;
+.post > * + * {
+  @apply mt-8;
 }
-.post h2 {
-  @apply mb-0;
+.post h2,
+.post hr {
+  @apply mt-16 mb-0;
 }
 .post h2 + p {
   @apply mt-5 !important;
