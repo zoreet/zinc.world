@@ -55,4 +55,18 @@
     </div>
 
 </body>
+<link rel="preconnect" href="https://www.google-analytics.com" />
+<script>
+if ( window.location.hostname.includes('zinc.world') || window.location.hostname.includes('netlify.app')) {
+  requestIdleCallback(function() {
+    (function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+    ;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+    ;c.parentNode.insertBefore(a,c)
+    })(window,document,"galite","script","/js/ga-lite.min.js");
+
+    galite('create', 'UA-16398396-3', 'auto');
+    galite('send', 'pageview');
+  });
+}
+</script>
 </html>
