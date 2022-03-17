@@ -139,6 +139,22 @@ h1, h2, h3 {
 strong {
   @apply font-bold;
 }
+.post strong {
+  @apply text-yellow-100;
+  /* background-color: #AF9E59; */
+  text-shadow: 0 1px 0 #000;
+  position: relative;
+}
+/* .post strong::before {
+  position: absolute;
+  z-index: -1;
+  @apply bg-yellow-500/40 p-1 -left-1 -top-0.5;
+  content: "";
+  height: 100%;
+  width: 100%;
+  box-sizing: content-box;
+  transform: skewX(-4deg)
+} */
 
 a {
   @apply text-red-400 no-underline relative;
@@ -231,7 +247,7 @@ code {
 }
 
 .post {
-  @apply text-gray-50;
+  @apply text-gray-100;
 }
 .post-width,
 .post p,
@@ -245,11 +261,15 @@ code {
 {
   @apply w-full max-w-3xl mx-auto ;
 }
-.post p {
+.post p,
+.post ul {
   @apply text-lg leading-7 font-normal tracking-wide;
 }
 .post > * + * {
   @apply mt-8;
+}
+.post li + li {
+  @apply mt-4;
 }
 .post h2,
 .post hr {
@@ -267,7 +287,8 @@ code {
   .post {
     @apply text-slate-50;
   }
-  .post p {
+  .post p,
+  .post ul {
     @apply text-xl leading-9 ;
   }
 
