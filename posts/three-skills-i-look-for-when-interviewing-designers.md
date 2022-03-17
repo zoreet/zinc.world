@@ -42,7 +42,7 @@ Communication is about how you understand the challenges, rephrase and summarize
 
 ## 1. Commercial awareness
 
-This is where most designers fail. Most designers don't think of the implications of their designs. Either they want to do trendy stuff and reach the first page on dribbble or love the user so much that they don't consider the feasibility of their designs.
+This is where most designers fail. Most designers don't think of the implications of their designs. Either they want to do trendy stuff and reach the first page on dribbble](https://dribbble.com) or love the user so much that they don't consider the feasibility of their designs.
 
 Commercial awareness is an umbrella term we use to describe how you think about the impact of your solution on the business and the user.
 I love seeing a designer who considers the solution's viability and its ROI. They think about testing the impact of their solution and mitigating risk. Instead of waiting long periods of time before everything is ready, they prioritize features and ship them out in batches to serve the user fast.
