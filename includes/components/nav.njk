@@ -1,10 +1,10 @@
 <ul class="menu flex flex-row items-center list-reset text-base gap-4 w-full justify-between">
-    <li class="w-1/3 level-1{% if page.url !== '/' %} hidden tablet:block{% endif %}">
-        <span class="text-slate-50 text-center">Design + Code</span>
+    <li class="w-full tablet:w-1/3 level-1{% if page.url == '/' %} hidden{% endif %}">
+        <a href="/" class="text-slate-50 link text-2xl zinculescu" aria-current="page">ZINCULESCU</a>
     </li>
 
-    <li class="w-full tablet:w-1/3 level-1{% if page.url == '/' %} hidden{% endif %} text-center">
-        <a href="/" class="text-slate-50 link text-2xl zinculescu" aria-current="page">ZINCULESCU</a>
+    <li class="w-1/3 level-1{% if page.url !== '/' %} hidden tablet:block{% endif %} text-center">
+        <span class="text-slate-50 text-center">Design. Code. Mentorship.</span>
     </li>
 
     <li class="w-1/3 text-right level-1{% if page.url !== '/' %} hidden tablet:block{% endif %}">
