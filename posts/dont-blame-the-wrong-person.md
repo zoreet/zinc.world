@@ -1,7 +1,7 @@
 ---
 title: Don't blame the wrong person
 date: 2022-03-27
-featured_image: /images/blog/22/mar/dont-blame-git.png
+featured_image: /images/blog/22/mar/dont-blame-git-cover.png
 excerpt: Want to know who actually wrote that line?
 tags:
     - blog
