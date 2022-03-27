@@ -157,7 +157,7 @@ strong {
 } */
 
 a {
-  @apply text-red-400 no-underline relative;
+  @apply text-blue-300 no-underline underline-offset-1 relative;
 }
 a:hover {
   @apply underline;

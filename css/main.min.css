@@ -1150,9 +1150,10 @@ strong{
 a{
   position: relative;
   --tw-text-opacity: 1;
-  color: rgb(255 108 99 / var(--tw-text-opacity));
+  color: rgb(92 173 255 / var(--tw-text-opacity));
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
+  text-underline-offset: 1px;
 }
 
 a:hover{
