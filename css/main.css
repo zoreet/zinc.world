@@ -255,6 +255,7 @@ code {
 .post h3,
 .post hr,
 .post ul,
+.post ol,
 .post table,
 .post pre,
 .post code
@@ -262,6 +263,7 @@ code {
   @apply w-full max-w-3xl mx-auto ;
 }
 .post p,
+.post ol,
 .post ul {
   @apply text-lg leading-7 font-normal tracking-wide;
 }
@@ -282,9 +284,13 @@ code {
   list-style: disc;
   list-style-position: inside;
 }
+.post ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
 
 .post p code,
-.post ul code {
+.post li code {
   @apply inline-block w-auto;
 }
 

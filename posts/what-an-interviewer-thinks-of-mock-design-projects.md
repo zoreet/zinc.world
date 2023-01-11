@@ -4,22 +4,30 @@ date: 2022-03-11
 featured_image: /images/blog/22/mar/mock-design-cover.png
 excerpt: You're at the start of your UX career and don't have much to show in your portfolio. Maybe you haven't landed your first gig yet. What can you do? A lot of designers go to mock projects. But there's a problem with this approach.
 tags:
-    - blog
+    - draft
     - Interview
 ---
 
-You're at the start of your UX career and don't have much to show in your portfolio. Maybe you haven't landed your first gig yet. What can you do? A lot of designers go to mock projects.
+## Mock design projects are just practice.
 
-I get it. You want to show you got what it takes, so you come up with an exciting project that will showcase just how good you are. _What would I do if a prestigious museum of modern art reaches out to me to build them a website?_  You follow the well-established design process you learned in school. Following every neatly laid out step, you go from research and mood boards to wireframes, high fidelity mockups, and maybe even prototypes. And the result: an beautiful design showcased on dribbble, Behance, and your portfolio. But there's a problem with this approach.
+We've all been there. You're at the start of your UX career and don't have much to show in your portfolio. Maybe you haven't landed your first gig yet. What can you do? You have the passion and want to put in the work, so instead of procrastinating you imagine a scenario for an project that will showcase just how good you are.
 
-## Things don't go according to plan
 
-In real life, things don't go so smoothly and I'm interested in how you deal with the challenges. First of all, the requirements are not always well defined, and they will likely change once the project is underway and the depth of the problem becomes obvious. You could also jump in projects pressed by a tight deadline. Most times, you're probably working in a multi-disciplinary team with many opinions and personal goals. And even after you navigate all of this, the users might reject your solution. What do you do then?
+## In real life
+In your career you're more likely to work on existing projects with vaguely defined requirements. How do you navigate legacy features and tight deadlines?
+
+I'm interested in how you deal with the challenges.
+
+In my career I've worked mostly on evolving/pivoting existing products. How do you work with lega
+
+First of all, the requirements are not always well defined, and they will likely change once the project is underway and the depth of the problem becomes obvious.
+
+In big companies you mostly work on evolving existing projects pressed by a tight deadline. Most times, you're probably working in a multi-disciplinary team with many opinions and personal goals. And even after you navigate all of this, the users might reject your solution. What do you do then?
 
 ## What I look for in a candidate
-In an interview, I look for three things in a candidate:
+I write in detail about the [three things I look for when interviewing](/posts/three-skills-i-look-for-when-interviewing-designers/) but the short version is:
 - __craftsmanship:__ the actual ability to draw elements and combine them to form a cohesive design;
-- __communication:__ how well you understand and communicate the problem, your intentions behind the solution, how you negotiate with stakeholders, and of course, how you present your solution to the user;
+- __communication:__ how well you understand and communicate the problem, how you present the solution, how do you  ;
 - __commercial awareness:__ here I'm looking for pragmatism. What problems you decided to work on, how much time you spend on them, what features do you cut, how do you validate your assumptions;
 
 When I look at a mock design, I can adequately assess craftsmanship but struggle with the other two. How can I determine how well you understood the requirements if you created them? What skills do you have to advocate for the user when a PM or Dev wants to simplify, remove, or add features? There's no time pressure to tempt you into taking shortcuts. No stakes if you mess it up. And more importantly, no feedback from the user to know if your solution actually worked. Not all is lost, don't worry.
